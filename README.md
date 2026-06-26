@@ -27,6 +27,7 @@ DO NOT USE IT.
 | `source`                                        | [D](https://dlang.org) source code                              |
 | `examples`                                      | Example programs                                                |
 | `tests`                                         | Test programs                                                   |
+| `benchmarks`                                    | Benchmark programs                                              |
 | `metas`                                         | Gives metainfos and configs for the project                     |
 
 # Dependencies

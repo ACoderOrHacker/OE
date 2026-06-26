@@ -27,6 +27,7 @@ Ox 库目前处于废弃状态，不应使用
 | `source`                                        | [D](https://dlang.org) 源文件                              |
 | `examples`                                      | 示例程序                                                   |
 | `tests`                                         | 测试用例                                                   |
+| `benchmarks`                                    | 基准测试程序                                               |
 | `metas`                                         | 元信息和构建配置信息                                       |
 
 # 项目依赖
