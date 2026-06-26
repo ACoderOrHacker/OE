@@ -36,7 +36,7 @@ DO NOT USE IT.
 [Xmake](https://xmake.io) is for building.
 
 [DUB](https://dub.pm) is used for publishing in dub (building is also ok).
-You can also use [scripts/install_dub_deps.d](scripts/install_dub_deps.d) to install dependencies for DUB and then build.
+You can also use [scripts/install_dub_deps.sh](scripts/install_dub_deps.sh) to install dependencies for DUB and then build.
 Every dependency will be installed into `dub_dependencies` before committing.
 
 ## Packing Dependencies
@@ -53,14 +53,29 @@ to install the required tools for packing.
 # Building
 
 Run `xmake` to build the project.
+Or
+
+```sh
+xmake build
+```
+
 You can also use these following options in building:
 
 - `--shared=true/false` - Build shared libraries (default is `false`).
 - `--modules=true/false` - Build With C++20 modules (default is `false`).
+- `--stdmodules=true/false` - Build With C++20 standard modules (default is `false`).
+- `--<module-name>=true/false` - Build With `<module-name>` (default is `true`, all libraries are included by default).
+
+Other build options/macros see [configs](metas/configs.json)
 
 # Packaging
 
-Run `xmake pack-oe` to package the project.
+Run `fpack` to package the project.
+Or
+
+```sh
+fpack pack
+```
 
 # Contributing
 
@@ -69,3 +84,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
 # License
 
 This library is under the Apache License 2.0.
+
+The Apache-2.0 license is a permissive open-source license that allows users to freely use, modify, and distribute software while providing an express grant of patent rights from contributors to users.
