@@ -40,3 +40,6 @@ include/oe/oe/configs.h
 
 # TODO files
 TODO
+
+# Installed dub dependencies
+dub_dependencies/
