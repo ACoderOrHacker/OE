@@ -68,3 +68,10 @@ EOF
 cat <<EOF >> ../include/oe/oe.hpp
 #include <oe/$1.hpp>
 EOF
+
+cat <<EOF >> ../source/oe/$1.d
+module oe.$1;
+
+public:
+
+EOF
