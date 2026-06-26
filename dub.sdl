@@ -1,0 +1,8 @@
+name "OE"
+description "The Ox-Extends Library, based on Ox codebase."
+authors "ACoderOrHacker"
+copyright "Copyright (C) ACoderOrHacker"
+license "Apache-2.0"
+targetType "library"
+targetPath "build"
+sourcePath "source"
