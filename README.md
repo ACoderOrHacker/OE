@@ -1,7 +1,13 @@
+<h1 align="center">
+  <a href="https://github.com/ACoderOrHacker/OE">
+    <img src="logo.png" alt="Logo" width="125" height="125">
+  </a>
+</h1>
+
 <div align="center">
     OE - Ox-Extends Library
-    <br>
-    <br>
+    <br/>
+    <br/>
     <a href="https://github.com/ACoderOrHacker/OE/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
     ·
     <a href="https://github.com/ACoderOrHacker/OE/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feat%3A+">Request a Feature</a>
@@ -10,7 +16,7 @@
 </div>
 
 <div align="center">
-    <br />
+    <br/>
 
 [![Project license](https://img.shields.io/github/license/ACoderOrHacker/OE.svg?style=flat-square)](LICENSE)
 

@@ -1,3 +1,9 @@
+<h1 align="center">
+  <a href="https://github.com/ACoderOrHacker/OE">
+    <img src="logo.png" alt="Logo" width="125" height="125">
+  </a>
+</h1>
+
 <div align="center">
     OE - Ox-Extends Library
     <br>
