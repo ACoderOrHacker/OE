@@ -1,4 +1,35 @@
-# Introduction
+<div align="center">
+    OE - Ox-Extends Library
+    <br>
+    <br>
+    <a href="https://github.com/ACoderOrHacker/OE/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
+    ·
+    <a href="https://github.com/ACoderOrHacker/OE/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feat%3A+">Request a Feature</a>
+    ·
+    <a href="https://github.com/ACoderOrHacker/OE/discussions">Ask a Question</a>
+</div>
+
+<div align="center">
+    <br />
+
+[![Project license](https://img.shields.io/github/license/ACoderOrHacker/OE.svg?style=flat-square)](LICENSE)
+
+[![Pull Requests welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/ACoderOrHacker/OE/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
+[![code with love by ACoderOrHacker](https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%99%A5%20by-ACoderOrHacker-ff1414.svg?style=flat-square)](https://github.com/ACoderOrHacker)
+
+</div>
+
+# Table of Contents
+
+- [About](#about)
+- [File Structure](#file-structure)
+- [Dependencies](#dependencies)
+- [Building](#building)
+- [Packaging](#packaging)
+- [Contributing](#contributing)
+- [License](#license)
+
+# About
 
 The Ox-Extends Library, based on Ox codebase.
 Supports terminal, gui, string, etc.
