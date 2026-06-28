@@ -37,10 +37,10 @@
 5. 创建一个新的功能分支 (`git flow feature start amazing_feature`)
 6. 添加您的更改 (`git add .`)
 7. 提交您的更改 (`git commit -m 'feat: add amazing_feature'`)
-   oe 使用 [惯例提交](https://www.conventionalcommits.org)，所以请在提交消息中遵循规范。
+   OE 使用 [Conventional Commits](https://www.conventionalcommits.org)，所以请在提交消息中遵循规范。
 8. 完成功能分支 (`git flow feature finish amazing_feature`)
-9. 将其推送到远程 (`git push origin feat/amazing_feature`)
-10. [打开拉取请求](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.repo_slug}}/compare?expand=1)
+9. 将其推送到远程
+10. [打开拉取请求](https://github.com/ACoderOrHacker/OE/compare?expand=1)
 
 ## 贡献要求
 

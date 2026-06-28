@@ -38,10 +38,10 @@ Please try to create bug reports that are:
 5. Create a new feature branch (`git flow feature start amazing_feature`)
 6. Add your changes (`git add .`)
 7. Commit your changes (`git commit -m 'feat: add amazing_feature'`)
-   oe uses [conventional commits](https://www.conventionalcommits.org), so please follow the specification in your commit messages.{% endif %}
+   OE uses [conventional commits](https://www.conventionalcommits.org), so please follow the specification in your commit messages.
 8. Finish the feature branch (`git flow feature finish amazing_feature`)
-9. Push it to the remote (`git push origin feat/amazing_feature`)
-10. [Open a Pull Request](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.repo_slug}}/compare?expand=1)
+9. Push it to the remote
+10. [Open a Pull Request](https://github.com/ACoderOrHacker/OE/compare?expand=1)
 
 ## Contributing requirements
 
