@@ -3,6 +3,3 @@
 -- other libraries are spilted by ';'
 libs_string = ";"
     .. "allocator;"
-    .. "endian;"
-    .. "types;"
-    .. "git2;"
