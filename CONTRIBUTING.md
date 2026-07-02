@@ -76,6 +76,6 @@ Please try to create bug reports that are:
 - Classes's member variables should be prefixed with `m_`.
 - Indentation should be 4 spaces.
 - Use clang-format(C/C++) and dfmt(D) to format code.
-- Use `types` library when using types like std::uint8_t
+- Use `types` library when using types like std::uint8_t.
 - Use `scripts/add_module.sh` to add a new module.
 - Add a config in [metas/configs.json](metas/configs.json) when adding a new config for a module.
