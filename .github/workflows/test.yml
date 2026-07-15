@@ -1,4 +1,4 @@
-name: Build
+name: Test
 
 on:
   workflow_dispatch:
@@ -6,10 +6,12 @@ on:
     branches:
       - master
       - dev
+      - release/**
   pull_request:
     branches:
       - master
       - dev
+      - release/**
 
 jobs:
   build:
@@ -24,6 +26,12 @@ jobs:
     steps:
       - name: ⤵️ Checkout out code from Github
         uses: actions/checkout@v7
+      - name: ♻ Install D compiler
+        uses: dlang-community/setup-dlang@v2
+        with:
+          compiler: dmd-latest
+      - name: ✅ Test D Compiler
+        run: dmd --version
       - name: ⚙️ Setting up Xmake
         uses: xmake-io/github-action-setup-xmake@v1
         with:
