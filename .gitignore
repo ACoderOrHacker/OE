@@ -37,3 +37,6 @@ build/
 
 # Generated config files
 include/oe/oe/configs.h
+
+# IDEA files
+.idea/
