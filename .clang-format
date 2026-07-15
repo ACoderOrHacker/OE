@@ -6,3 +6,5 @@ Language: Cpp
 DerivePointerAlignment: false
 PointerAlignment: Left
 SortIncludes: false
+IndentPPDirectives: AfterHash
+ColumnLimit: 128
