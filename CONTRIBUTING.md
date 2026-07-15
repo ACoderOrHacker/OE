@@ -33,15 +33,8 @@ Please try to create bug reports that are:
    [Pull Requests](https://github.com/ACoderOrHacker/OE/pulls)
    that relate to your submission. You don't want to duplicate effort.
 2. Fork the project
-3. Install [git-flow](https://git-flow.sh)
-4. Run `git-flow init`
-5. Create a new feature branch (`git flow feature start amazing_feature`)
-6. Add your changes (`git add .`)
-7. Commit your changes (`git commit -m 'feat: add amazing_feature'`)
-   OE uses [conventional commits](https://www.conventionalcommits.org), so please follow the specification in your commit messages.
-8. Finish the feature branch (`git flow feature finish amazing_feature`)
-9. Push it to the remote
-10. [Open a Pull Request](https://github.com/ACoderOrHacker/OE/compare?expand=1)
+3. Write codes as `GitFlow` workflow.
+4. [Open a Pull Request](https://github.com/ACoderOrHacker/OE/compare?expand=1)
 
 ## Contributing requirements
 
@@ -60,6 +53,12 @@ Please try to create bug reports that are:
 - PRs must be good and well-written.
 - Commits must be atomic and have clear, descriptive English messages.
 - Committing on dev branch is allowed.
+
+### Commit Messages Guidelines
+
+- Use clear, descriptive commit messages.
+- Use GitFlow workflow, the GitFlow config is: `master` for main branch, `dev` for develop branch, `feature/` for the prefix of a feature branch, `release/` for the prefix of a release branch, `hotfix/` for the prefix of a hotfix branch.
+- Use [Angular commit message format](https://github.com/angular/angular/blob/main/contributing-docs/commit-message-guidelines.md). If you are using `Rebased` or other Intellij-based IDE, use `Git Flow Helper` plugin.
 
 ### Code style
 
