@@ -41,5 +41,5 @@ include/oe/oe/configs.h
 # IDEA files
 .idea/
 
-# node_modules
-node_modules/
+/cmake-build-debug/
+/node_modules/

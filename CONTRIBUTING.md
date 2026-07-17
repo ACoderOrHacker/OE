@@ -60,6 +60,8 @@ Please try to create bug reports that are:
 - Use GitFlow workflow, the GitFlow config is: `master` for main branch, `dev` for develop branch, `feature/` for the prefix of a feature branch, `release/` for the prefix of a release branch, `hotfix/` for the prefix of a hotfix branch.
 - Use [Angular commit message format](https://github.com/angular/angular/blob/main/contributing-docs/commit-message-guidelines.md). If you are using `Rebased` or other Intellij-based IDE, use `Git Flow Helper` plugin.
 
+<!-- TODO: Add submodule requires -->
+
 ### Code style
 
 - Use clear, descriptive variable names.

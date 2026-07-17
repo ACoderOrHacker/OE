@@ -43,7 +43,8 @@
 - 使用清晰、描述性的提交信息。
 - 使用 GitFlow 工作流，GitFlow 配置：`master` 为主分支，`dev` 为开发分支，`feature/` 为特性分支前缀，`release/` 为发布分支前缀，`hotfix/` 为热修复分支前缀。
 - 使用 [Angular 提交消息格式](https://github.com/angular/angular/blob/main/contributing-docs/commit-message-guidelines.md)，如果你在使用JetBrains IDE, 可以使用`Git Flow Helper`插件。
--
+
+<!-- TODO: Add submodule requires -->
 
 ### 问题报告
 
