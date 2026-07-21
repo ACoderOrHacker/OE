@@ -10,7 +10,7 @@ module;
 #include <ios>
 #endif
 
-module oe.types.char_traits:char_traits_define;
+export module oe.types.char_traits:char_traits_define;
 
 import oe.types.basic_types;
 import oe.meta.concepts;
@@ -78,8 +78,8 @@ struct define_char_traits {
         c = value;
     }
 
-    static constexpr inline char_type* assign(char_type* dest, char_type c,
-                                              oe::usize n) noexcept {
+    static constexpr inline char_type* assign(char_type* dest, oe::usize n,
+                                              char_type c) noexcept {
         // TODO: a faster way?
         for (oe::usize i = 0; i < n; ++i) {
             assign(dest[i], c);

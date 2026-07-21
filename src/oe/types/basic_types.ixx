@@ -84,7 +84,8 @@ struct byte {
     constexpr byte& operator<<=(IntType shift) noexcept
         requires oe::integral<IntType>
     {
-        return value = value << shift;
+        value = value << shift;
+        return *this;
     }
 
     /**
@@ -98,7 +99,8 @@ struct byte {
     constexpr byte& operator>>=(IntType shift) noexcept
         requires oe::integral<IntType>
     {
-        return value = value >> shift;
+        value = value >> shift;
+        return *this;
     }
 
     /**
@@ -112,7 +114,8 @@ struct byte {
     constexpr byte& operator&=(IntType shift) noexcept
         requires oe::integral<IntType>
     {
-        return value = value & shift;
+        value = value & shift;
+        return *this;
     }
 
     /**
@@ -126,7 +129,8 @@ struct byte {
     constexpr byte& operator|=(IntType shift) noexcept
         requires oe::integral<IntType>
     {
-        return value = value | shift;
+        value = value | shift;
+        return *this;
     }
 
     /**
@@ -140,7 +144,8 @@ struct byte {
     constexpr byte& operator^=(IntType shift) noexcept
         requires oe::integral<IntType>
     {
-        return value = value ^ shift;
+        value = value ^ shift;
+        return *this;
     }
 
     /**

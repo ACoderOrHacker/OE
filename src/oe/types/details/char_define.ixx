@@ -4,7 +4,7 @@
  * types.
  * @copyright Copyright (C) 2026 ACoderOrHacker. All rights reserved.
  */
-module oe.types.char_types:char_define;
+export module oe.types.char_types:char_define;
 
 import oe.meta;
 

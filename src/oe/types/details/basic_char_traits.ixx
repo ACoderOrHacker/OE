@@ -7,7 +7,7 @@ module;
 
 #include <oe/meta/has_member_define.hpp>
 
-module oe.types.char_traits:basic_char_traits;
+export module oe.types.char_traits:basic_char_traits;
 
 import oe.meta;
 import oe.types.basic_types;
@@ -26,24 +26,27 @@ OE_DEFINE_HAS_FUNCTION_MEMBER(has_eq_int_type, eq_int_type, bool,
 OE_DEFINE_HAS_FUNCTION_MEMBER(has_lt, lt, bool, typename CheckType::char_type,
                               typename CheckType::char_type)
 OE_DEFINE_HAS_FUNCTION_MEMBER(has_compare, compare, int,
-                              const CheckType::char_type*,
-                              const CheckType::char_type*, oe::usize)
+                              const typename CheckType::char_type*,
+                              const typename CheckType::char_type*, oe::usize)
 OE_DEFINE_HAS_FUNCTION_MEMBER(has_find, find,
-                              const CheckType::char_type*,
-                              const CheckType::char_type*, oe::usize,
+                              const typename CheckType::char_type*,
+                              const typename CheckType::char_type*, oe::usize,
                               typename CheckType::char_type)
-OE_DEFINE_HAS_FUNCTION_MEMBER(has_copy, copy, CheckType::char_type*,
-                              CheckType::char_type*,
-                              const CheckType::char_type*, oe::usize)
-OE_DEFINE_HAS_FUNCTION_MEMBER(has_move, move, CheckType::char_type*,
-                              CheckType::char_type*,
-                              const CheckType::char_type*, oe::usize)
-OE_DEFINE_HAS_FUNCTION_MEMBER(has_assign, assign, void, CheckType::char_type&,
+OE_DEFINE_HAS_FUNCTION_MEMBER(has_copy, copy, typename CheckType::char_type*,
+                              typename CheckType::char_type*,
+                              const typename CheckType::char_type*, oe::usize)
+OE_DEFINE_HAS_FUNCTION_MEMBER(has_move, move, typename CheckType::char_type*,
+                              typename CheckType::char_type*,
+                              const typename CheckType::char_type*, oe::usize)
+OE_DEFINE_HAS_FUNCTION_MEMBER(has_assign, assign, void,
+                              typename CheckType::char_type&,
                               typename CheckType::char_type)
-OE_DEFINE_HAS_FUNCTION_MEMBER(has_assign_n, assign, CheckType::char_type*, oe::usize,
+OE_DEFINE_HAS_FUNCTION_MEMBER(has_assign_n, assign,
+                              typename CheckType::char_type*,
+                              typename CheckType::char_type*, oe::usize,
                               typename CheckType::char_type)
 OE_DEFINE_HAS_FUNCTION_MEMBER(has_length, length, oe::usize,
-                              const CheckType::char_type*)
+                              const typename CheckType::char_type*)
 OE_DEFINE_HAS_FUNCTION_MEMBER(has_to_char_type, to_char_type,
                               typename CheckType::char_type,
                               typename CheckType::int_type)

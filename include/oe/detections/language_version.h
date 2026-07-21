@@ -22,7 +22,7 @@
 #ifndef OE_DETECTIONS_LANGUAGE_VERSION_H
 #define OE_DETECTIONS_LANGUAGE_VERSION_H
 
-#include <../../../.local/old/compiler.h>
+#include <oe/detections/compiler_detections.h>
 
 #ifdef __cplusplus
 /**
