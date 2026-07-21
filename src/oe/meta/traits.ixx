@@ -406,7 +406,9 @@ using std::negation_v;
 #endif
 
 // member relationships
-#if OE_CPP_STANDARD >= OE_CPP20_ID
+// FIXME: Doesn't work on clang with Microsoft STL
+#if OE_CPP_STANDARD >= OE_CPP20_ID &&                                          \
+    (OE_COMPILER_SINGLE != OE_COMPILER_CLANG && OE_HAS_MSVC_COMPILER_ID)
 using std::is_corresponding_member;
 using std::is_pointer_interconvertible_with_class;
 #endif
