@@ -38,7 +38,7 @@
 # About
 
 The Ox-Extends Library, based on Ox codebase.
-Using C++17 version in C++ Library.
+Using C++20 version in C++ Library.
 And using D2 version in D Library.
 Supports terminal, gui, string, etc.
 It can be used in both [C++](https://cplusplus.com) and [D](https://dlang.org)

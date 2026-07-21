@@ -37,3 +37,9 @@ build/
 
 # Generated config files
 include/oe/oe/configs.h
+
+# IDEA files
+.idea/
+
+/cmake-build-debug/
+/node_modules/
