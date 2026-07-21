@@ -1,0 +1,40 @@
+name: CodeQL
+
+on:
+  workflow_dispatch:
+  push:
+  pull_request:
+  schedule:
+    - cron: "30 1 * * 0"
+
+jobs:
+  codeql:
+    name: 🏭 Scanning
+    runs-on: ubuntu-latest
+    permissions:
+      security-events: write
+      actions: read
+      contents: read
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - language: c-cpp
+            build-mode: none
+    steps:
+      - name: ⤵️ Check out code from GitHub
+        uses: actions/checkout@v7
+      - name: 🏗 Initialize CodeQL
+        uses: github/codeql-action/init@v4
+        with:
+          languages: ${{matrix.language}}
+          build-mode: ${{matrix.build-mode}}
+      - name: 🚀 Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v4
+        with:
+          category: "/language:${{matrix.language}}"
+      - name: ✨ Upload CodeQL database as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: OE-Code-Database
+          path: /home/runner/work/_temp/codeql_databases/

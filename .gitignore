@@ -22,3 +22,24 @@ docs/
 
 # Code coverage
 *.lst
+
+# Build output
+build/
+
+# Zed project files
+.zed/
+
+# Local files
+.local/
+
+# XMake files
+.xmake/
+
+# Generated config files
+include/oe/oe/configs.h
+
+# IDEA files
+.idea/
+
+/cmake-build-debug/
+/node_modules/
